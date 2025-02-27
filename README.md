@@ -15,6 +15,15 @@ The Nashville Predators' analytics team has not prioitized the Google Analytics 
 
 
 
+#Sprint 1
+In the first sprint, the goal was to extract and clean data the Nashville Predators google analytics service. I was able to complete this through KNIME with a series of node loops that looped my query's from October to March. 
+
+
+#Sprint 2
+There were multiple goals in this sprint. First of which was extracting data from my previous for loop to gather insight on the Nashville Predators article performance and ticket landing pages. The next step was to put this article data into a tableau dashboard to show the top performing articles from the year. The last goal, which was not accomplished, was to automate Tableau through it's S3 server connector. I created an S3 bucket to store my csv. KNIME has an s3 node that makes it easy to upload files there. From there I was able to get Tableau to recognize my file, however the data would come up blank. Looking at forums some people have had similar issues with no resolve. I tried to create an Athena table to pointed to the bucket and connect it that way with no success either. 
+
+
+
 
 
 
