@@ -74,11 +74,12 @@ This limits the strategic use of web analytics for improving fan engagement and 
 
 ---
 
-##  Repository Links (To be added)
+##  Repository Links 
+- KNIME workflow .knwf (attatched at top)
+- Tableau Workbooks:
+     - https://public.tableau.com/views/PredsTicketConversions/TicketConversions?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
-- [KNIME Workflow Files](./knime_workflows)
-- [Tableau Dashboard Screenshot](./assets/tableau_dashboard.png)
-- [Presentation Slides (PDF)](./presentation.pdf)
+
 
 ---
 
