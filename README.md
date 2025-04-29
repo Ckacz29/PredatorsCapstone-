@@ -1,23 +1,99 @@
-# PredatorsCapstone-
-Create workflow that draws data from google analytics platform 
+# 🏒 PredatorsCapstone
 
-#Project Overview
-I am helping the Nashville Predators' Business Strategy team gather insights to their NashvillePredators.com webpage. The current process of collecting Google Analytics data is manual, inefficient, and prone to data loss. By implementing an automated KNIME workflow that extracts, transforms, and stores Google Analytics data in CSV format for easy Tableau integration. It will help with data-driven decision making to different departments that may rely on this information. By creating an automated workflow, 
-it will save time for business strategy and the data can be easily distibuted. 
+Create a workflow that draws data from the Google Analytics platform.
 
-#Problem Statement
-The Nashville Predators' analytics team has not prioitized the Google Analytics to track website engagement, becasue it has drawn to much effort manualy filter data through the google analytcs platform. The analytics team struggles with time-consuming data extraction and formatting. The platform is used for a quick look at the data. 
+---
 
-#ISBA Subfields 
-1. Data Engineering - With Knime, The process of extracting data from Google Analytics, cleaning the data for easy use, and loading it into a .csv file for distrubution (ETL) correlates with main projects Data Engineers are responsible for.
-2. Business Intelligence & Data Visualization – The integration of Tableau enables the Nashville Predators' analytics team to create dashboards, track KPI's, and generate insights from this data
-3. Digital Marketing Analytics – This subfield focuses on analyzing user behavior, engagement, and conversions from the Nashville Predators' website using Google Analytics data to optimize marketing strategies and improve fan interactions.
+## 📌 Project Overview
+
+I am helping the **Nashville Predators' Business Strategy** team gather insights into their [NashvillePredators.com](https://www.nashvillepredators.com) webpage. The current process of collecting Google Analytics data is **manual, inefficient, and prone to data loss**.
+
+By implementing an **automated KNIME workflow** that extracts, transforms, and stores Google Analytics data in **CSV format** for easy Tableau integration, we can enable **data-driven decision-making** across departments. This automation not only **saves time** but also ensures that data is **clean and easily distributed** to stakeholders.
+
+---
+
+## ❗ Problem Statement
+
+The Nashville Predators' analytics team has **not prioritized Google Analytics** due to the manual effort required to filter data through the platform. The team currently uses it only for quick reference because:
+
+- **Data extraction is time-consuming**
+- **Formatting is inconsistent**
+- **Insights are delayed**
+
+This limits the strategic use of web analytics for improving fan engagement and ticket revenue.
+
+---
+
+## 🧠 ISBA Subfields
+
+1. **Data Engineering**  
+   Use of KNIME to perform ETL (Extract, Transform, Load) from Google Analytics into CSV format for distribution aligns with core data engineering tasks.
+
+2. **Business Intelligence & Data Visualization**  
+   Integration with Tableau allows the team to build dashboards, monitor KPIs, and generate actionable insights.
+
+3. **Digital Marketing Analytics**  
+   Analyzing user behavior, engagement, and conversions from the website to improve marketing strategies and fan interaction.
+
+---
+
+## ⚙️ Technical Stack
+
+- **KNIME** – for ETL workflow
+- **AWS S3** – for cloud-based CSV storage
+- **Tableau** – for data visualization
+- **Data Source**: Google Analytics 4 API
+- **Hosting**: AWS Cloud
+
+---
+
+## 📈 Methodology: CRISP-DM Framework
+
+| Phase                | Description                                                       |
+|---------------------|-------------------------------------------------------------------|
+| **Business Understanding** | Identify key traffic behaviors influencing ticket sales          |
+| **Data Understanding**     | Extract GA4 event data (sessions, conversions)                |
+| **Data Preparation**       | Clean and filter the data using KNIME                        |
+| **Modeling**               | Create metrics like conversion rate and session value        |
+| **Evaluation**             | Build Tableau dashboards with live S3 data feed              |
+| **Deployment**             | Automate a production-ready workflow for the analytics team  |
+
+---
+
+## 🚧 Challenges Overcome
+
+- KNIME's learning curve for complex data manipulation
+- Configuring Tableau to dynamically connect to AWS S3-hosted CSVs
+
+---
+
+## 🎯 Key Learnings
+
+- Gained mastery in **KNIME** for enterprise-level ETL
+- Learned how to work with **AWS S3** and Tableau’s data connectors
+- Practiced professional communication with real-world stakeholders and teams
+
+---
+
+## 📎 Repository Links (To be added)
+
+- [KNIME Workflow Files](./knime_workflows)
+- [Tableau Dashboard Screenshot](./assets/tableau_dashboard.png)
+- [Presentation Slides (PDF)](./presentation.pdf)
+
+---
+
+> _“Analytics is about transforming data into insight and insight into action.”_
 
 
-Tech Stack: 
-- KNIME
-- Tabluea
-- AWS (Athena, S3) 
+
+
+
+
+
+
+
+
 
 
 
