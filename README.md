@@ -56,7 +56,7 @@ This limits the strategic use of web analytics for improving fan engagement and 
 | **Data Preparation**       | Clean and filter the data using KNIME                        |
 | **Modeling**               | Create metrics like conversion rate and session value        |
 | **Evaluation**             | Build Tableau dashboards with live S3 data feed              |
-| **Deployment**             | Automate a production-ready workflow for the analytics team  |
+
 
 ---
 
