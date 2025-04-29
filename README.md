@@ -63,14 +63,13 @@ This limits the strategic use of web analytics for improving fan engagement and 
 ##  Challenges Overcome
 
 - KNIME's learning curve for complex data manipulation
-- Configuring Tableau to dynamically connect to AWS S3-hosted CSVs
+
 
 ---
 
 ##  Key Learnings
 
 - Gained mastery in **KNIME** for enterprise-level ETL
-- Learned how to work with **AWS S3** and Tableau’s data connectors
 - Practiced professional communication with real-world stakeholders and teams
 
 ---
@@ -83,7 +82,6 @@ This limits the strategic use of web analytics for improving fan engagement and 
 
 ---
 
-> _“Analytics is about transforming data into insight and insight into action.”_
 
 
 
