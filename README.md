@@ -6,9 +6,9 @@ Create a workflow that draws data from the Google Analytics platform.
 
 ##  Project Overview
 
-I am helping the **Nashville Predators' Business Strategy** team gather insights into their [NashvillePredators.com](https://www.nashvillepredators.com) webpage. The current process of collecting Google Analytics data is **manual, inefficient, and prone to data loss**.
+I am helping the **Nashville Predators' Business Strategy** team gather insights into their [NHL.com/predators](https://NHL.com/predators) webpage. The current process of collecting Google Analytics data is **manual, inefficient, and prone to data loss**.
 
-By implementing an **automated KNIME workflow** that extracts, transforms, and stores Google Analytics data in **CSV format** for easy Tableau integration, we can enable **data-driven decision-making** across departments. This automation not only **saves time** but also ensures that data is **clean and easily distributed** to stakeholders.
+By implementing an **automated KNIME workflow** that extracts, transforms, and stores Google Analytics data in **CSV format** for easy Tableau integration, we can enable **data-driven decision-making** across departments. This not only **saves time** but also ensures that data is **clean and easily distributed** to stakeholders.
 
 ---
 
@@ -40,10 +40,10 @@ This limits the strategic use of web analytics for improving fan engagement and 
 ## ⚙️ Technical Stack
 
 - **KNIME** – for ETL workflow
-- **AWS S3** – for cloud-based CSV storage
+- **Google Drive ** – for cloud-based CSV storage
 - **Tableau** – for data visualization
-- **Data Source**: Google Analytics 4 API
-- **Hosting**: AWS Cloud
+- **Google Analytics 4 API**: - Data Source 
+
 
 ---
 
@@ -55,7 +55,7 @@ This limits the strategic use of web analytics for improving fan engagement and 
 | **Data Understanding**     | Extract GA4 event data (sessions, conversions)                |
 | **Data Preparation**       | Clean and filter the data using KNIME                        |
 | **Modeling**               | Create metrics like conversion rate and session value        |
-| **Evaluation**             | Build Tableau dashboards with live S3 data feed              |
+| **Evaluation**             | Build Tableau dashboards with live Google Drive data feed              |
 
 
 ---
@@ -78,6 +78,7 @@ This limits the strategic use of web analytics for improving fan engagement and 
 - KNIME workflow .knwf (attatched at top)
 - Tableau Workbooks:
      - https://public.tableau.com/views/PredsTicketConversions/TicketConversions?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+     - 
 
 
 
@@ -92,9 +93,7 @@ This limits the strategic use of web analytics for improving fan engagement and 
 
 
 
-
-
-
+Sprint retorspectives: 
 
 #Sprint 1
 In the first sprint, the goal was to extract and clean data the Nashville Predators google analytics service. I was able to complete this through KNIME with a series of node loops that looped my query's from October to March. 
