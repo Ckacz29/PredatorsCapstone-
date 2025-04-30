@@ -8,7 +8,7 @@ Create a workflow that draws data from the Google Analytics platform.
 
 I am helping the **Nashville Predators' Business Strategy** team gather insights into their [NHL.com/predators](https://NHL.com/predators) webpage. The current process of collecting Google Analytics data is **manual, inefficient, and prone to data loss**.
 
-By implementing an **automated KNIME workflow** that extracts, transforms, and stores Google Analytics data in **CSV format** for easy Tableau integration, we can enable **data-driven decision-making** across departments. This not only **saves time** but also ensures that data is **clean and easily distributed** to stakeholders.
+By implementing an ** KNIME workflow** that extracts, transforms, and stores Google Analytics data in **CSV format** for easy Tableau integration, we can enable **data-driven decision-making** across departments. This not only **saves time** but also ensures that data is **clean and easily distributed** to stakeholders.
 
 ---
 
@@ -77,9 +77,10 @@ This limits the strategic use of web analytics for improving fan engagement and 
 ##  Repository Links 
 - KNIME workflow .knwf (attatched at top)
 - Tableau Workbooks:
-     - https://public.tableau.com/views/PredsTicketConversions/TicketConversions?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+     - Ticket Conversions Dashboard: https://public.tableau.com/views/PredsTicketConversions/TicketConversions?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+     - Game Performance Dashboard: https://public.tableau.com/views/PredsGamePerformanceDashboard/IndividualGame?:language=enUS&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
      - 
-
+   
 
 
 ---
