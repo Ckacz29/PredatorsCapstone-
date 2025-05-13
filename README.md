@@ -39,7 +39,7 @@ This limits the strategic use of web analytics for improving fan engagement and 
 Drawing data from google analytics, KNIME is able to able to take this data and transform it into a csv that is both clean and usable for other application practices. The data is stored in Google Drive for easy accesability and connection to Tableau which is used to make various dashboards for insights. 
 
 - **KNIME** – for ETL workflow
-- **Google Drive ** – for cloud-based CSV storage
+- **Google Drive** – for cloud-based CSV storage
 - **Tableau** – for data visualization
 - **Google Analytics 4 API**: - Data Source 
 
