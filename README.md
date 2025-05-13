@@ -1,4 +1,4 @@
-# PredatorsCapstone
+# Nashville Predators Web Analytics Pipeline 
 
 Create a workflow that draws data from the Google Analytics platform.
 
@@ -38,10 +38,11 @@ This limits the strategic use of web analytics for improving fan engagement and 
 
 Drawing data from google analytics, KNIME is able to able to take this data and transform it into a csv that is both clean and usable for other application practices. The data is stored in Google Drive for easy accesability and connection to Tableau which is used to make various dashboards for insights. 
 
-- **KNIME** – for ETL workflow
-- **Google Drive** – for cloud-based CSV storage
-- **Tableau** – for data visualization
-- **Google Analytics 4 API**: - Data Source 
+
+- **ETL Tool:** KNIME
+- **Cloud Storage:** Google Drive
+- **Data Source:** Google Analytics 4 (GA4 API)
+- **Data Visualization:** Tableau
 
 
 ---
@@ -76,7 +77,15 @@ Drawing data from google analytics, KNIME is able to able to take this data and 
 
 ---
 
+### Next Steps / Future Improvements
+
+- Automate KNIME workflows using scheduling tools like Apache Airflow or KNIME Server
+- Create new google analytics metrics and dimensions in the platform like campaign name, and social media post
+
+---
+
 ##  Repository Links 
+- Link to final presentation slides: https://docs.google.com/presentation/d/1T8LcXKQuGsm5HvhqD6wJSx2Uqod842Tpa7dWbJPZpvU/edit?usp=sharing
 - KNIME workflow .knwf (attatched at top)
 - Tableau Dashboards:
      - Ticket Conversions Dashboard: https://public.tableau.com/views/PredsTicketConversions/TicketConversions?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
