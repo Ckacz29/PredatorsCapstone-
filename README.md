@@ -6,7 +6,7 @@ Create a workflow that draws data from the Google Analytics platform.
 
 ##  Project Overview
 
-I am helping the **Nashville Predators' Business Strategy** team streamline their web analytics platform([NHL.com/predators](https://NHL.com/predators)), by developing a data pipelines that delivers faster and clearner insights, elimating the manual steps it took to utilize this data.
+I am helping the **Nashville Predators' Business Strategy** team streamline their web analytics platform([NHL.com/predators](https://NHL.com/predators)), by developing a data pipeline that delivers faster and clearner insights, elimating the manual steps it took to utilize this data.
 
 
 ---
